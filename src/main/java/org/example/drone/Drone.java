@@ -1,24 +1,21 @@
+
 package org.example.drone;
 
-class Drone {
-    private String name;
-    private int maxWeight;
+import java.util.ArrayList;
+import java.util.List;
 
-    public Drone() {
-        this.name = "";
-        this.maxWeight = 0;
-    }
-    public Drone(String name, int maxWeight) {
+class Drone {
+    String name;
+    int maxWeight;
+    List<Trip> trips;
+
+    Drone(String name, int maxWeight) {
         this.name = name;
         this.maxWeight = maxWeight;
+        this.trips = new ArrayList<>();
     }
 
-    public String getName() {
-        return name;
+    void addTrip(Trip trip) {
+        trips.add(trip);
     }
-
-    public int getMaxWeight() {
-        return maxWeight;
-    }
-
 }
