@@ -1,2 +1,3 @@
-package org.example.restaurant;public class MenuItem {
-}
+package org.example.restaurant;
+
+

@@ -1,5 +1,5 @@
 package org.example.pagination;
 
-public interface CommandExecute {
-    void execute(String command);
+public interface ICommandExecute<T>{
+    void execute(String command, IPagination<T> pagination);
 }

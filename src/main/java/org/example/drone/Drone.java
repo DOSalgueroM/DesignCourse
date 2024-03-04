@@ -1,4 +1,4 @@
-package org.example;
+package org.example.drone;
 
 class Drone {
     private String name;

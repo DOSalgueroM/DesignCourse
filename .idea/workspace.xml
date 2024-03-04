@@ -5,19 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="027bf224-54f1-40f3-b27b-ac123369114d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codewars/FucionadorIntervalos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/codewars/FucionadorIntervalos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codewars/Intervalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/codewars/Intervalo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codewars/MainIntervalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/codewars/MainIntervalo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codewars/ParserIntervalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/codewars/ParserIntervalo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codewars/SumadorIntervalos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/codewars/SumadorIntervalos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codewars/VerificadorSolapamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/codewars/VerificadorSolapamiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/consoleprogram/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/consoleprogram/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/consoleprogram/ItemListManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/consoleprogram/ItemListManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/consoleprogram/MainItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/consoleprogram/MainItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/drone/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/drone/Drone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/drone/MainDrone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/drone/MainDrone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/drone/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/drone/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/memory/MemoryAllocationSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/memory/MemoryAllocationSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/memory/MemoryBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/memory/MemoryBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/memory/MemoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/memory/MemoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pagination/CommandExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pagination/CommandExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pagination/ICommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pagination/ICommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pagination/ICommandExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pagination/ICommandExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pagination/IPagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pagination/IPagination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pagination/MainPagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pagination/MainPagination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/restaurant/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/restaurant/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/restaurant/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2cbaNRFSuJZs1LnKwpf67XMKzQl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,15 +58,61 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Interval.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainItem.executor": "Run",
+    "Application.MemoryAllocationSimulation.executor": "Run",
+    "Application.OrderManagementSystem.executor": "Run",
+    "Application.PaginatedListProgram.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/GAMING/IdeaProjects/DataStructureProyect",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/GAMING/IdeaProjects/DesignCourse/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.MemoryAllocationSimulation">
+    <configuration name="MemoryAllocationSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.memory.MemoryAllocationSimulation" />
+      <module name="DesignCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.memory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.restaurant.OrderManagementSystem" />
+      <module name="DesignCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MemoryAllocationSimulation" />
+        <item itemvalue="Application.OrderManagementSystem" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,7 +121,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708382699909</updated>
-      <workItem from="1708382701084" duration="4000" />
+      <workItem from="1708382701084" duration="2525000" />
+      <workItem from="1708396680437" duration="2961000" />
+      <workItem from="1708429884174" duration="773000" />
+      <workItem from="1708639813721" duration="4489000" />
+      <workItem from="1708725952045" duration="2206000" />
+      <workItem from="1708875342836" duration="7064000" />
+      <workItem from="1708980972002" duration="7513000" />
+      <workItem from="1709066895356" duration="4418000" />
+      <workItem from="1709244311992" duration="1710000" />
+      <workItem from="1709577008514" duration="1389000" />
     </task>
     <servers />
   </component>
@@ -54,8 +141,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/drone/MainDrone.java</url>
+          <line>59</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

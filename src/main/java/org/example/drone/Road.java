@@ -1,4 +1,4 @@
-package org.example;
+package org.example.drone;
 
 import java.util.List;
 

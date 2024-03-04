@@ -2,7 +2,7 @@ package org.example.codewars;
 
 import static org.example.codewars.SumadorIntervalos.sumIntervals;
 
-public class Main {
+public class MainIntervalo {
     public static void main(String[] args) {
         //int[][] intervalos = {{1, 5}, {6, 10}, {4, 7}};
         int [][] intervalos = {{1, 4}, {7, 10}, {3, 5}};

@@ -1,10 +1,12 @@
 package org.example.consoleprogram;
 
+import java.util.Objects;
 import java.util.Scanner;
 
-public class Main {
+public class MainItem {
     public static void main(String[] args) {
-        ItemListManager itemListManager = new ItemListManager();
+        ItemListManager<Object> itemListManager = new ItemListManager<>();
+        //ItemManager<Object> itemListManager = new ItemManager<>();
         Scanner scanner = new Scanner(System.in);
 
         while (true) {

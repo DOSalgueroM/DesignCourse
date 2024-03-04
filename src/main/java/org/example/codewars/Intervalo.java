@@ -1,8 +1,22 @@
 package org.example.codewars;
 
-public class Interval {
+public class Intervalo {
+    int inicio;
+    int fin;
 
-    private int[][] intervals;
+    public Intervalo(int inicio, int fin) {
+        this.inicio = inicio;
+        this.fin = fin;
+    }
+    public int getInicio() {
+        return this.inicio;
+    }
+
+    public int duracion() {
+        return this.fin - this.inicio;
+    }
+
+    /*private int[][] intervals;
     public Interval(int[][] intervals) {
         this.intervals = intervals;
     }
@@ -22,6 +36,6 @@ public class Interval {
         int[][] intervals = {{4, 4}, {6, 6}, {8, 8}};
         Interval interval = new Interval(intervals);
         System.out.println(interval.sumIntervals());
-    }
+    }*/
 
 }
