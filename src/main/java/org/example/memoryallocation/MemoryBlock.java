@@ -22,4 +22,7 @@ public class MemoryBlock {
     public boolean isFree() {
         return object == null;
     }
+    public boolean isOccupied() {
+        return object != null;
+    }
 }

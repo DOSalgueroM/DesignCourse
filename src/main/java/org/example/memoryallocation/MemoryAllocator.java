@@ -54,6 +54,8 @@ public class MemoryAllocator implements IMemoryAllocator {
             return false;
         }
         block.setObject(null);
+        mergeAdjacentBlocks();
+
         return true;
 
 
@@ -82,6 +84,18 @@ public class MemoryAllocator implements IMemoryAllocator {
     public void ShowMemory() {
         for (MemoryBlock block : blocks) {
             System.out.println(block.getObject() + " " + block.getSize());
+        }
+    }
+    private void mergeAdjacentBlocks() {
+        for (int i = 0; i < blocks.size() - 1; i++) {
+            MemoryBlock currentBlock = blocks.get(i);
+            MemoryBlock nextBlock = blocks.get(i + 1);
+
+            if (!currentBlock.isOccupied() && !nextBlock.isOccupied()) {
+                currentBlock.setSize(currentBlock.getSize() + nextBlock.getSize());
+                blocks.remove(i + 1);
+                i--;
+            }
         }
     }
 }
