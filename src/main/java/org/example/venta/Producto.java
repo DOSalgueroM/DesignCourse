@@ -3,12 +3,12 @@ package org.example.venta;
 public class Producto {
     private String nombre;
     private double precio;
-    private int cantidad;
+    private int stock;
 
-    public Producto(String nombre, double precio, int cantidad) {
+    public Producto(String nombre, double precio, int stock) {
         this.nombre = nombre;
         this.precio = precio;
-        this.cantidad = cantidad;
+        this.stock = stock;
     }
 
     public String getNombre() {
@@ -27,11 +27,11 @@ public class Producto {
         this.precio = precio;
     }
 
-    public int getCantidad() {
-        return cantidad;
+    public int getStock() {
+        return stock;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
+    public void setStock(int stock)  {
+        this.stock = stock;
     }
 }
