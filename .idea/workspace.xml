@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="027bf224-54f1-40f3-b27b-ac123369114d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/DecoradorObservadorImpares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/DecoradorImpares.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ICondicionNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/IObservador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/IObservador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Numeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Numeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorDecorador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMayor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMenor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMenor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorSumador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorSumador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/drones/Drone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/drones/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/drones/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/drones/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/drone/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/drone/Location.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +44,7 @@
     "Application.Interval.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
+    "Application.MainDrone.executor": "Run",
     "Application.MainItem.executor": "Run",
     "Application.MainVenta.executor": "Run",
     "Application.MemoryAllocationSimulation.executor": "Run",
@@ -56,6 +53,7 @@
     "Application.OrderManagementSystem.executor": "Run",
     "Application.PaginatedListProgram.executor": "Run",
     "Application.org.example.analizadorpantalla.Main.executor": "Run",
+    "Application.org.example.drones.Main.executor": "Run",
     "Application.org.example.observer.Main.executor": "Run",
     "Application.org.example.observerdecorator.Main.executor": "Debug",
     "Application.org.example.ordenarlista.Main.executor": "Run",
@@ -83,26 +81,13 @@
       <recent name="C:\Users\GAMING\IdeaProjects\DesignCourse\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.observerdecorator.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.frame.Main" />
+  <component name="RunManager" selected="Application.org.example.drones.Main">
+    <configuration name="MainDrone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.drone.MainDrone" />
       <module name="DesignCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.frame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.frame.Main2" />
-      <module name="DesignCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.frame.*" />
+          <option name="PATTERN" value="org.example.drone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +121,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.drones.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.drones.Main" />
+      <module name="DesignCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.drones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.observerdecorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.observerdecorator.Main" />
       <module name="DesignCourse" />
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.drones.Main" />
+        <item itemvalue="Application.MainDrone" />
         <item itemvalue="Application.org.example.observerdecorator.Main" />
         <item itemvalue="Application.MainVenta" />
         <item itemvalue="Application.org.example.analizadorpantalla.Main" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +189,7 @@
       <workItem from="1710527065843" duration="2514000" />
       <workItem from="1710541810396" duration="2040000" />
       <workItem from="1710690925751" duration="5736000" />
-      <workItem from="1710707473781" duration="1404000" />
+      <workItem from="1710707473781" duration="9103000" />
     </task>
     <servers />
   </component>
@@ -201,14 +199,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/drone/MainDrone.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
           <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="3" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
