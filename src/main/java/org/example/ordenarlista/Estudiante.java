@@ -33,4 +33,12 @@ public class Estudiante {
     public void setCalificacion(double calificacion) {
         this.calificacion = calificacion;
     }
+    @Override
+    public String toString() {
+        return "Estudiante{ " +
+                "nombre= " + nombre +
+                ", edad=" + edad +
+                ", nota=" + calificacion +
+                '}';
+    }
 }

@@ -5,16 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="027bf224-54f1-40f3-b27b-ac123369114d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/IOrdenarDatosEstudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/OrdenarPorCalificacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/OrdenarPorEdad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/OrdenarPorNombre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/MenusVenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumerosVariante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/analizadorpantalla/AnalizadorPantalla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/analizadorpantalla/CreadorPantalla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/analizadorpantalla/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/IObservador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/ObservadorMayor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/ObservadorMenor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/ObservadorSumador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/DecoradorImpares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ICondicionNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/IObservador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorDecorador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMayor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMenor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorSumador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observernumero/NumerosVariante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorCombinado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/IComparadorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Ordenador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/IOrdenarDatosEstudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/IComparador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/OrdenarPorCalificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorCalificacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/OrdenarPorEdad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorEdad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/OrdenarPorNombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorNombre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/ITipoVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/ITipoVenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/MainVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/MainVenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/MenusVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/MenusVenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaPorDocena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaPorDocena.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaPorUnidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaPorUnidad.java" afterDir="false" />
@@ -27,9 +52,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
         <option value="Interface" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -50,10 +75,17 @@
     "Application.DroneDelivery.executor": "Run",
     "Application.Interval.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
     "Application.MainItem.executor": "Run",
+    "Application.MainVenta.executor": "Run",
     "Application.MemoryAllocationSimulation.executor": "Run",
+    "Application.Numero.executor": "Run",
+    "Application.NumerosVariante.executor": "Run",
     "Application.OrderManagementSystem.executor": "Run",
     "Application.PaginatedListProgram.executor": "Run",
+    "Application.org.example.analizadorpantalla.Main.executor": "Run",
+    "Application.org.example.observer.Main.executor": "Run",
+    "Application.org.example.observerdecorator.Main.executor": "Run",
     "Application.org.example.ordenarlista.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,27 +106,18 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.memoryallocation" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GAMING\IdeaProjects\DesignCourse\src\main\java\org\example\observerdecorator" />
+      <recent name="C:\Users\GAMING\IdeaProjects\DesignCourse\src\main\java\org\example" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.ordenarlista.Main">
-    <configuration name="DroneDelivery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.drone.DroneDelivery" />
-      <module name="DesignCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.drone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainVenta">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.memoryallocation.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.example.frame.Main" />
       <module name="DesignCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.memoryallocation.*" />
+          <option name="PATTERN" value="org.example.frame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryAllocationSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.memory.MemoryAllocationSimulation" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.frame.Main2" />
       <module name="DesignCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.memory.*" />
+          <option name="PATTERN" value="org.example.frame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +138,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.restaurant.OrderManagementSystem" />
+    <configuration name="MainVenta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.venta.MainVenta" />
       <module name="DesignCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.restaurant.*" />
+          <option name="PATTERN" value="org.example.venta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.analizadorpantalla.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.analizadorpantalla.Main" />
+      <module name="DesignCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.analizadorpantalla.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.ordenarlista.Main" />
+        <item itemvalue="Application.MainVenta" />
+        <item itemvalue="Application.org.example.analizadorpantalla.Main" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DroneDelivery" />
-        <item itemvalue="Application.MemoryAllocationSimulation" />
-        <item itemvalue="Application.OrderManagementSystem" />
+        <item itemvalue="Application.org.example.ordenarlista.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +208,17 @@
       <workItem from="1709666066523" duration="8035000" />
       <workItem from="1709744126838" duration="2005000" />
       <workItem from="1709760726027" duration="2159000" />
-      <workItem from="1709842199453" duration="6722000" />
+      <workItem from="1709842199453" duration="11205000" />
+      <workItem from="1709916495575" duration="1799000" />
+      <workItem from="1709928314307" duration="6318000" />
+      <workItem from="1710199826964" duration="1473000" />
+      <workItem from="1710273153307" duration="2841000" />
+      <workItem from="1710347682431" duration="1728000" />
+      <workItem from="1710356295503" duration="7344000" />
+      <workItem from="1710455655556" duration="4159000" />
+      <workItem from="1710527065843" duration="2514000" />
+      <workItem from="1710541810396" duration="2040000" />
+      <workItem from="1710690925751" duration="5736000" />
     </task>
     <servers />
   </component>
@@ -187,6 +233,10 @@
           <line>3</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -8,11 +8,13 @@ public class MenusVenta {
         System.out.println("3. Fanta");
         System.out.println("4. Papitas");
         System.out.println("5. Salchipapa");
-        System.out.println("6. Salir");
+        System.out.println("6. Mostrar precios y stock");
+        System.out.println("7. Salir");
     }
     public static void printMenuVenta2(){
         System.out.println("Desea comprar por unidad o por docena?");
         System.out.println("1. Unidad");
         System.out.println("2. Docena");
     }
+
 }
