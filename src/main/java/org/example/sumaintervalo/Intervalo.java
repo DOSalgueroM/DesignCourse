@@ -1,4 +1,4 @@
-package org.example.codewars;
+package org.example.sumaintervalo;
 
 public class Intervalo {
     int inicio;

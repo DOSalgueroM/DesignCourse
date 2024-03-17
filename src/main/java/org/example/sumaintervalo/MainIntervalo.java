@@ -1,6 +1,6 @@
-package org.example.codewars;
+package org.example.sumaintervalo;
 
-import static org.example.codewars.SumadorIntervalos.sumIntervals;
+import static org.example.sumaintervalo.SumadorIntervalos.sumIntervals;
 
 public class MainIntervalo {
     public static void main(String[] args) {

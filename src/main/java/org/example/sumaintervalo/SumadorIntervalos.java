@@ -1,4 +1,4 @@
-package org.example.codewars;
+package org.example.sumaintervalo;
 
 import java.util.ArrayList;
 import java.util.Comparator;

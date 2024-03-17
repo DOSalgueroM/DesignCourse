@@ -5,44 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="027bf224-54f1-40f3-b27b-ac123369114d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumerosVariante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/analizadorpantalla/AnalizadorPantalla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/analizadorpantalla/CreadorPantalla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/analizadorpantalla/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/IObservador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/Numeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/ObservadorMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/ObservadorMenor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/ObservadorSumador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/DecoradorImpares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ICondicionNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/IObservador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Numeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorDecorador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMenor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorSumador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observernumero/NumerosVariante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorCombinado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/IComparadorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Ordenador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/IOrdenarDatosEstudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/IComparador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/OrdenarPorCalificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorCalificacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/OrdenarPorEdad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorEdad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/OrdenarPorNombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ordenarlista/ComparadorNombre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/ITipoVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/ITipoVenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/MainVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/MainVenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/MenusVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/MenusVenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaPorDocena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaPorDocena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaPorUnidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/venta/VentaPorUnidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/DecoradorObservadorImpares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/DecoradorImpares.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ICondicionNumeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/IObservador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/IObservador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Numeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/Numeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorDecorador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMenor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorMenor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorSumador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observerdecorator/ObservadorSumador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,14 +57,14 @@
     "Application.PaginatedListProgram.executor": "Run",
     "Application.org.example.analizadorpantalla.Main.executor": "Run",
     "Application.org.example.observer.Main.executor": "Run",
-    "Application.org.example.observerdecorator.Main.executor": "Run",
+    "Application.org.example.observerdecorator.Main.executor": "Debug",
     "Application.org.example.ordenarlista.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/GAMING/IdeaProjects/DataStructureProyect",
+    "last_opened_file_path": "C:/Users/GAMING/IdeaProjects/DesignCourse",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,7 +83,7 @@
       <recent name="C:\Users\GAMING\IdeaProjects\DesignCourse\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainVenta">
+  <component name="RunManager" selected="Application.org.example.observerdecorator.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.frame.Main" />
       <module name="DesignCourse" />
@@ -164,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.ordenarlista.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ordenarlista.Main" />
+    <configuration name="org.example.observerdecorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.observerdecorator.Main" />
       <module name="DesignCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ordenarlista.*" />
+          <option name="PATTERN" value="org.example.observerdecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.observerdecorator.Main" />
         <item itemvalue="Application.MainVenta" />
         <item itemvalue="Application.org.example.analizadorpantalla.Main" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.example.ordenarlista.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +191,7 @@
       <workItem from="1710527065843" duration="2514000" />
       <workItem from="1710541810396" duration="2040000" />
       <workItem from="1710690925751" duration="5736000" />
+      <workItem from="1710707473781" duration="1404000" />
     </task>
     <servers />
   </component>

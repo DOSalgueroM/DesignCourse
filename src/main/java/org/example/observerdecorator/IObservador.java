@@ -1,5 +1,7 @@
 package org.example.observerdecorator;
 
+import java.util.List;
+
 public interface IObservador {
-    void Actualizar();
+    void Actualizar(List<Integer> datos);
 }

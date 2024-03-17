@@ -3,24 +3,26 @@ package org.example.observerdecorator;
 
 public class Main {
     public static void main(String[] args) {
-        int numero;
         Numeros n = new Numeros();
-        ObservadorSumador sumador = new ObservadorSumador(n);
+        ObservadorSumador sumador = new ObservadorSumador();
         n.Attach(sumador);
-        ObservadorMayor mayor =new ObservadorMayor(n);
+        ObservadorMayor mayor =new ObservadorMayor();
         n.Attach(mayor);
-        ObservadorMenor menor = new ObservadorMenor(n);
-        n.Attach(menor);
 
-        DecoradorImpares decorador = new DecoradorImpares(n);
-        numero = decorador.validarNumero(5);
-        n.Adicionar(numero);
-        numero =decorador.validarNumero(6);
-        n.Adicionar(numero);
-        numero =decorador.validarNumero(7);
-        n.Adicionar(numero);
+        ObservadorSumador sumador2 = new ObservadorSumador();
+        DecoradorObservadorImpares decorador =  new DecoradorObservadorImpares(sumador2);
+        n.Attach( decorador);
 
-        //ICondicionNumeros decorador = new DecoradorImpares(n);
+        ObservadorMayor mayor2 = new ObservadorMayor();
+        DecoradorObservadorImpares decorador2 =  new DecoradorObservadorImpares(mayor2);
+        n.Attach( decorador2);
+
+        n.Adicionar(10);
+        n.Adicionar(11);
+
+
+
+        n.Eliminar(10);
 
     }
 }

@@ -1,4 +1,4 @@
-package org.example.codewars;
+package org.example.sumaintervalo;
 
 public class VerificadorSolapamiento {
     public static boolean haySolapamiento(Intervalo intervalo1, Intervalo intervalo2) {

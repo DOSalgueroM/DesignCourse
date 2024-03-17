@@ -1,4 +1,4 @@
-package org.example.codewars;
+package org.example.sumaintervalo;
 
 public class FucionadorIntervalos {
     public static Intervalo funcionarIntervalos(Intervalo intervalo1, Intervalo intervalo2) {

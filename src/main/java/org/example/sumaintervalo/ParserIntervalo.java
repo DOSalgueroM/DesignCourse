@@ -1,4 +1,4 @@
-package org.example.codewars;
+package org.example.sumaintervalo;
 
 public class ParserIntervalo {
     public static Intervalo parsearIntervalo(int[] intervalo) {

@@ -1,16 +1,13 @@
 package org.example.observerdecorator;
 
 
+import java.util.List;
+
 class ObservadorSumador implements IObservador {
-    private Numeros numeros;
 
-    public ObservadorSumador(Numeros nums) {
-        numeros = nums;
-    }
-
-    public void Actualizar() {
+    public void Actualizar(List<Integer> datos) {
         int sumatoria = 0;
-        for (int n : numeros.GetListaNumeros()) {
+        for (int n : datos) {
             sumatoria += n;
         }
 

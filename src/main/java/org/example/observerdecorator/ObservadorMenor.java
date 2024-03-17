@@ -1,16 +1,13 @@
 package org.example.observerdecorator;
 
 
+import java.util.List;
+
 class ObservadorMenor implements IObservador {
-    private Numeros numeros;
 
-    public ObservadorMenor(Numeros nums) {
-        numeros = nums;
-    }
-
-    public void Actualizar() {
+    public void Actualizar(List<Integer> datos) {
         int menor = Integer.MAX_VALUE;
-        for (int n : numeros.GetListaNumeros()) {
+        for (int n : datos) {
             if (n < menor) {
                 menor = n;
             }
