@@ -19,18 +19,21 @@ public class Main {
 
         System.out.println("Ingrese el nombre y capacidad separados por coma");
 
-        for (int i = 0; i < cantidadDrones; i++) {
-            String input = scanner.nextLine();
-            String[] dronesInformation = input.split(", ");
-            String nombre = dronesInformation[0];
-            int capacidad = Integer.parseInt(dronesInformation[1]);
-            drones.add(new Drone(nombre, capacidad));
-        }
+        datosDrones(cantidadDrones, scanner, drones);
         System.out.println("Ingrese las locaciones y peso de los paquetes separados por coma");
-        System.out.println("Ejemplo: locacion1, 10 .. Escriba 'done' para terminar");
+        System.out.println("Ejemplo: locacion1, 10 .. Escriba 'hecho' para terminar");
+
+        datosLocaciones(scanner, locaciones);
+        distribuirPaquetes(drones, locaciones);
+        mostrarViajes(drones);
+
+    }
+
+
+    private static void datosLocaciones(Scanner scanner, List<Location> locaciones) {
         while (true) {
             String input = scanner.nextLine();
-            if (input.equalsIgnoreCase("done")) {
+            if (input.equalsIgnoreCase("hecho")) {
                 break;
             }
             String[] locacionInformation = input.split(", ");
@@ -38,9 +41,18 @@ public class Main {
             int peso = Integer.parseInt(locacionInformation[1]);
             locaciones.add(new Location(nombre, peso));
         }
-        distribuirPaquetes(drones, locaciones);
-        mostrarViajes(drones);
     }
+
+    private static void datosDrones(int cantidadDrones, Scanner scanner, List<Drone> drones) {
+        for (int i = 0; i < cantidadDrones; i++) {
+            String input = scanner.nextLine();
+            String[] dronesInformation = input.split(", ");
+            String nombre = dronesInformation[0];
+            int capacidad = Integer.parseInt(dronesInformation[1]);
+            drones.add(new Drone(nombre, capacidad));
+        }
+    }
+
     public static void distribuirPaquetes(List<Drone> drones, List<Location> locaciones) {
 
         for (Drone droneActual : drones) {
