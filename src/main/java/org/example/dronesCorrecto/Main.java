@@ -1,4 +1,4 @@
-package org.example.drones;
+package org.example.dronesCorrecto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         List<Drone> drones = new ArrayList<>();
         List<Location> locaciones = new ArrayList<>();
+
 
         System.out.println("Bienvenido al sistema de drones");
         System.out.println("Ingrese la cantidad de drones");
@@ -41,42 +42,30 @@ public class Main {
         mostrarViajes(drones);
     }
     public static void distribuirPaquetes(List<Drone> drones, List<Location> locaciones) {
+
         for (Drone droneActual : drones) {
+            List<Location> locacionesAsignadas = new ArrayList<>();
             for (Location locacion : locaciones) {
                 // Verificar si la locación ya fue asignada a algún dron
                 if (!locacion.getIsVisitedLocation()) {
-                    Trip viajeActual;
+                    //Trip viajeActual;
                     if (droneActual.getMaxWeight() >= locacion.getPackageWeightLocation()) {
-                        viajeActual = new Trip(droneActual, locacion);
-                        droneActual.addTrip(viajeActual);
+
+                        locacionesAsignadas.add(locacion);
                         droneActual.setMaxWeight(droneActual.getMaxWeight() - locacion.getPackageWeightLocation());
                         // Marcar la locación como asignada
                         locacion.setIsVisitedLocation(true);
                     }
                 }
+
             }
+
+            droneActual.addTrip(new Trip(locacionesAsignadas));
+
         }
     }
 
 
-    /*public static void distribuirPaquetes(List<Drone> drones, List<Location> locaciones) {
-        int indiceDrone = 0;
-        for (Drone droneActual : drones) {
-            for (Location locacion : locaciones) {
-                //Drone droneActual = drones.get(indiceDrone);
-                Trip viajeActual;
-                if (droneActual.getMaxWeight() >= locacion.getPackageWeightLocation()) {
-                    viajeActual = new Trip(droneActual, locacion);
-                    droneActual.addTrip(viajeActual);
-                    droneActual.setMaxWeight(droneActual.getMaxWeight() - locacion.getPackageWeightLocation());
-                }
-                //indiceDrone++;
-                *//*if (indiceDrone == drones.size()) {
-                    indiceDrone = 0;
-                }*//*
-            }
-        }
-    }*/
         public static void mostrarViajes(List< Drone> drones) {
 
             for (Drone drone : drones) {

@@ -1,4 +1,4 @@
-package org.example.drones;
+package org.example.dronesCorrecto;
 
 public class Location {
     private String nameLocation;

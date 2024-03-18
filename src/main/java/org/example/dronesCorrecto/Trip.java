@@ -1,11 +1,13 @@
-package org.example.drones;
+package org.example.dronesCorrecto;
+
+import java.util.List;
 
 public class Trip {
     private Drone drone;
-    private Location location;
+    private List<Location> location;
 
-    public Trip(Drone drone, Location location) {
-        this.drone = drone;
+    public Trip(List<Location> location) {
+        //this.drone = drone;
         this.location = location;
     }
 
@@ -17,11 +19,10 @@ public class Trip {
         this.drone = drone;
     }
 
-    public Location getLocation() {
+    public List<Location> getLocation() {
         return location;
     }
-
-    public void setLocation(Location location) {
+    public void setLocation(List<Location> location) {
         this.location = location;
     }
 

@@ -1,4 +1,4 @@
-package org.example.drones;
+package org.example.dronesCorrecto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,14 +34,35 @@ public class Drone {
         trips.add(trip);
     }
     public void mostrarViajeDrone(List<Trip> trips){
+
+        int index = 1;
+        for (Trip trip : trips) {
+            System.out.println("Viaje: " + index);
+            for (Location location : trip.getLocation()) {
+                System.out.print("Localizacion: " + location.getNameLocation() + ", ");
+            }
+            index++;
+            System.out.println();
+        }
+
+        /*int index = 1;
+        for (Trip trip : trips) {
+            System.out.println("Viaje: " + index);
+            for (Location location : trip.getLocation()) {
+                System.out.print("Localizacion: " + location.getNameLocation() + ", ");
+            }
+            index++;
+            System.out.println();
+        }*/
+        /*int i = 0;
         int index = 1;
         for (Trip trip : trips) {
             System.out.println(" Viaje:  " + index);
-            System.out.println(" Localizacion:  " + trip.getLocation().getNameLocation());
+            System.out.println(" Localizacion:  " + trip.get(i).getLocation());
             index++;
         }
 
-        System.out.println();
+        System.out.println();*/
 
     }
 }
